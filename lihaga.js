@@ -1,18 +1,17 @@
-function pildiga(pildinumber) {
-    // Igal pildil on oma ID, et ma saaks nendele viidata ilma, et need ei hakkaks üksteist segama
-    var pilt = document.getElementById("näitaPilti" + pildinumber); 
-    // Igal nupul on oma ID, et ma saaks nendele viidata ilma, et need ei hakkaks üksteist segama
-    var nupp = document.getElementById('nupp' + pildinumber);
-
-    // Kontrollib kas pilt on hetkel nähtaval või ei
-    if (pilt.style.display === 'none'){
-        // Kui pilt ei ole nähtaval, siis teeb selle nähtavaks ning muudab nupul oleva teksti 'Peida pilt'-iks
-        pilt.style.display = 'block';
-        nupp.textContent = 'Peida pilt';
-
-        // Kui pilt on nähtaval, siis peidab pildi ära ning muudab nupul oleva teksti 'Näita pilti'-iks
-    } else {
-        pilt.style.display = 'none';
-        nupp.textContent = 'Näita pilti';
+// defineerin funktsiooni toggleImage, mille argumendiks on retsepti ID
+function toggleImage(recipeId) {
+    // leiab html-ist elemendi, millel on retsepti ID ning salvestab selle muutujasse recipe
+    var recipe = document.getElementById(recipeId);
+    if(!recipe) {
+        console.error('Recipe element not found with ID:', recipeId);
+        return
     }
+    // otsib img elemnti ehk pildi elementi recipe elemendi alert, ehk põhimõtteliselt pildi linki ja salvestab muutujasse img
+    var img = recipe.querySelector('img');
+    // jällegi otsib recipe elemedi alt elementi button ja salvestab selle muutujasse button
+    var button = recipe.querySelector('button');
+    // muudab pildi läbipaistvuse nulliks ja üheks, olenevalt, kas on vaja pilti kuvada või mitte
+    img.style.opacity = (img.style.opacity === '0') ? '1' : '0';
+    // muudab nupu teksti olenevalt sellest, kas pilt on läbipaistev (nupu tekstiks 'Näita pilti') või mitte (nupu tekstiks 'Peida pilt')
+    button.textContent = (img.style.opacity === '0') ? 'Näita pilti' : 'Peida pilt';
 }
