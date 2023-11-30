@@ -1,0 +1,17 @@
+title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(131, 207, 202);
+}
+
+button {
+    background-color: black; color:aliceblue
+}
+
+img {
+    margin-right: 250px;
+    float: right;
+    width: 350px;
+}
