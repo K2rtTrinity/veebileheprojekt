@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vegan retseptid</title>
@@ -8,11 +9,23 @@
     <link rel="stylesheet" type="text/css" href="ühine.css">
 </head>
 <body>
+    <script src="vegan.js"></script>
+
+  
     <h1>Meie lemmikud vegan retseptid</h1>
     <p>Siit lehelt leiab kergelt valmistatavaid vegan retsepte </p>
+    
+    <br>
     <h2>Taimne pasta bolognese</h2>
+    
+    <picture>
+        <img id="näitaPilti1" src ='https://4.bp.blogspot.com/-eVoN-SbXqHs/VBxd91w_R1I/AAAAAAAAE6w/p0dNo3uZ9HM/s1600/Quick%2BBolognese.jpg' style ='display: none'>
+    </picture>
+    
+    <button type="button" onclick="pildiga(1)" id="nupp1">Näita pilti</button>
+    
     <p>Mitmele: neli-kuus inimest <br>Valmistamisaeg: 15 minutit</p>
-    <h3>Läheb valja:</h3>
+    <h3>Läheb vaja:</h3>
     <ul>
         <li>3 sl õli</li>
         <li>2 sibulat</li>
@@ -35,6 +48,158 @@
         <li>Lase 5 minutit podiseda, kuni graanulid on pehmed ja paisunud</li>
         <li>Maitse ja lisa vajadusel soola. Soovi korral kaunista värske basiilikuga ja serveeri näiteks keedetud spagettidega.</li>
     </ol>
+
+    <br>
+    <br>
+    <h2>Praetud riis kimchiga</h2>
+    <picture>
+        <img id="näitaPilti2" src ='https://veganmaailm.com/wp-content/uploads/2020/12/IMG_9477.jpeg' style ='display: none' >
+    </picture>
+    
+    <button type="button" onclick="pildiga(2)" id="nupp2">Näita pilti</button>
+    
+    <p>Mitmele: kolm inimest <br>Valmistamisaeg: 30 minutit</p>
+    <h3>Läheb vaja:</h3>
+    <ul>
+        <li>400g kimchit</li>
+        <li>1 sibul</li>
+        <li>1 porgand</li>
+        <li>2 küüslauguküünt</li>
+        <li>2 tl rapsiõli</li>
+        <li>2 tl seesamiõli</li>
+        <li>4 tl sojakastet</li>
+        <li>2 tl misopastat</li>
+        <li>3 tl kookossuhkrut</li>
+        <li>(kaunistamiseks seesamiseemneid ning rohelist sibulat)</li>
+        <li>+ serveerimiseks keedetud 200g riisi</li>
+        <li>soovi korral serveerimiseks ka sojamajonees</li>
+    </ul>
+    <h3>Valmistamine:</h3>
+    <ol>
+        <li>Haki sibul ning prea rapsiõlis 2 minutit</li>
+        <li>Lisa hakitud sibul ning porgand</li>
+        <li>Sega ja hauta kaane all madalal tulel seni, kuni porgand on veidi pehmenenud.</li>
+        <li>Lisa kimchi ning prae 2 minutit.</li>
+        <li>Lisa sojakaste,misopasta, kookossuhkur ning sega</li>
+        <li>Lisa riis ja sega hoolega, prae paar minutit ning lisa seesamiõli</li>
+        <li>Serveeri majoneesi, hakitud rohelise sibule ja seesamiseemnetega</li>
+    </ol>
+
+
+    <br>
+    <br>
+    <h2>Paneeritud lillkapsas</h2>
+    
+    <picture>
+        <img id="näitaPilti3" src ='https://veganmaailm.com/wp-content/uploads/2021/01/IMG_9566.jpeg' style ='display: none' >
+    </picture>
+    
+    <button type="button" onclick="pildiga(3)" id="nupp3">Näita pilti</button>
+    
+    <p>Mitmele: kolm-neli inimest <br>Valmistamisaeg: 50 minutit</p>
+    <h3>Läheb vaja:</h3>
+    <ul>
+        <li>700 g lillkapsast</li>
+        <li>50 g nisujahu</li>
+        <li>50 g kikerhernejahu</li>
+        <li>0,5 tl soola</li>
+        <li>0,5 tl paprikapulbrit</li>
+        <li>0,5 tl broilerimaitseainet</li>
+        <li>1 tl küüslaugupulbrit</li>
+        <li>1 tl sibulapulbrit</li>
+        <li>200 ml taimset piima</li>
+        <li>120 g riivsaia</li>
+        <li>2 tl oliiviõl</li>
+        <li>soovi korral serveerimiseks värskeid hakitud ürte</li>
+        <li>serveerimiseks meelepärast kastet</li>
+    </ul>
+    <h3>Valmistamine:</h3>
+    <ol>
+        <li>Sega jahud ja maitseained</li>
+        <li>Lisa taimne piim ja sega ühtlaseks seguks</li>
+        <li>Murra lillkapsas väiksemateks tükkideks, kasta iga tükk ükshaaval tainasegusse ja seejärel kata riivsaiaga</li>
+        <li>Tõsta oliiviõliga määritud ahjuplaadile. Piserda enne küpsetamist oliiviõliga</li>
+        <li>Küpseta ca 200 kraadises ahjus umbes 35 minutit</li>
+        <li>Maitse ja lisa vajadusel soola. Soovi korral kaunista värske basiilikuga ja serveeri näiteks keedetud spagettidega</li>
+        <li>Serveeri meelepärase kastmega</li>
+    </ol>
+
+
+    <br>
+    <br>
+    <h2>Vürtsikad praekartulid tšilliga</h2>
+    
+    <picture>
+        <img id="näitaPilti4" src ='https://veekann.ee/wp-content/uploads/2022/05/DSC_4688.jpg' style ='display: none' >
+    </picture>
+    
+    <button type="button" onclick="pildiga(4)" id="nupp4">Näita pilti</button>
+    
+    <p>Mitmele: ühele inimesele <br>Valmistamisaeg: 20 minutit</p>
+    <h3>Läheb vaja:</h3>
+    <ul>
+        <li>1-2 kartulit</li>
+        <li>Pool sibulat</li>
+        <li>Oliiviõli</li>
+        <li>2-3 spl taimset toidukoort</li>
+        <li>Tšillikreem</li>
+        <li>Küüslaugusoola</li>
+        <li>Kuivatatud peterselli</li>
+    </ul>
+    <h3>Valmistamine:</h3>
+    <ol>
+        <li>Koori ja tükelda kartul, tee väikesed kuubikud</li>
+        <li>Tükelda sibul</li>
+        <li>Aja pannil õli kuumaks ja sega õliga sobiv kogus tšillikreem. Sega kuni moodustub punane vürtsikas õli</li>
+        <li>Lisa kartulid ja sibulad</li>
+        <li>Prae mõni minut ja lisa toidukoor</li>
+        <li>Prae kuni kartulid on pehmed(soovitatavalt praadida kaane all)</li>
+    </ol>
+    <br>
+    <br>
+    
+    <h2>Bataadi-oa karripada riisiga</h2>
+    
+    <picture>
+        <img id="näitaPilti5" src ='https://www.cleankitchen.ee/cdn/shop/files/0-JWbSj5Q84P3JvpQp1eQ46X7_1__pzeE5WMGn43o3Q.jpg?crop=center&height=240&v=1701309954&width=360' style ='display: none'>
+    </picture>
+    
+    <button type="button" onclick="pildiga(5)" id="nupp5">Näita pilti</button> 
+    <!--Esialgu on pilt peidus ning nupul olev tekst on 'Näita pilti'-->
+    
+    <p>Mitmele: kahele inimesele<br>Valmistamisaeg: 50 minutit</p>
+    <h3>Läheb vaja:</h3>
+    <ul>
+        <li>1 maguskartul</li>
+        <li>0.5 tl kaneeli</li>
+        <li>0.5 tl vürtsköömeni</li>
+        <li>0,5 tl paprikapulbrit</li>
+        <li>1 sibul</li>
+        <li>1 tšilli</li>
+        <li>1 punane paprika</li>
+        <li>350g tomatikastet</li>
+        <li>400g valgeid ube</li>
+        <li>Suhkur</li>
+        <li>Sool</li>
+        <li>Oliiviõli</li>
+        <li>(Kaunistamiseks koriander)</li>
+        <li> + serveerimiseks 125g keedetud riisi</li>
+    </ul>
+    <h3>Valmistamine:</h3>
+    <ol>
+        <li>Koori ja tükelda bataat tükkideks.</li>
+        <li>Pane bataat ahjuvormi ning maitsesta soola ja tilga õliga</li>
+        <li>Küpseta 200kraadises ahjus 15-20 minutit</li> 
+        <li>Haki tšilli, sibul, paprika ning kuumuta pannil 5-6 minutit(kuni köögiviljad on pehmenenud)</li>
+        <li>Lisa kaneel, vürtsköömned ja suitsupaprika ning kuumuta läbi</li>
+        <li>Lisa valged oad ja tomatikaste ning 150 ml vett</li>
+        <li>Hauta 25-30 minutit</li>
+        <li>Lisa ahjust tulnud bataat ning maitsesta soola ja natukese suhkruga</li>
+        <li>Serveeri karripada keedetud riisiga ning kaunist koriandriga</li>
+    </ol>
+
+
+
 
 
 </body>

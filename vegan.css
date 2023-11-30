@@ -5,3 +5,13 @@ title {
 body {
     background-color: rgb(183, 128, 57);
 }
+
+button {
+    background-color: black; color:aliceblue
+}
+
+img {
+    margin-right: 250px;
+    float: right;
+    width: 350px;
+}
