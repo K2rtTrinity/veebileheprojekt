@@ -2,10 +2,6 @@
 function toggleImage(recipeId) {
     // leiab html-ist elemendi, millel on retsepti ID ning salvestab selle muutujasse recipe
     var recipe = document.getElementById(recipeId);
-    if(!recipe) {
-        console.error('Recipe element not found with ID:', recipeId);
-        return
-    }
     // otsib img elemnti ehk pildi elementi recipe elemendi alert, ehk põhimõtteliselt pildi linki ja salvestab muutujasse img
     var img = recipe.querySelector('img');
     // jällegi otsib recipe elemedi alt elementi button ja salvestab selle muutujasse button
