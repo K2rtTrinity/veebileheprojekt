@@ -2,16 +2,41 @@ title {
     font-family: 'Times New Roman', Times, serif;
 }
 
+h2{
+    color:rgba(32, 68, 3, 0.699);
+}
 body {
-    background-color: rgb(183, 128, 57);
+    background-color:rgb(99, 164, 94);
 }
 
 button {
-    background-color: black; color:aliceblue
+    background-color:rgb(71, 152, 57); 
+    color:black;
+    border-radius: 12px;
 }
 
 img {
-    margin-right: 250px;
     float: right;
-    width: 350px;
+    width: 250px;
+    margin-right: 100px;
 }
+
+header {
+    background-color: #80cd8e;
+    color: #170303;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section{
+    width:60%;
+    margin:20px auto;
+    padding:20px;
+    box-shadow:#170303;
+    border-radius:15px;
+    overflow:hidden;
+    background-color: #80cd8e;
+}
+
+
+
