@@ -19,10 +19,12 @@ h1 {
 }
 
 .recipe {
+    width: 60%;
+    margin: 20px auto;
     background-color: #f4e1d2;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    margin: 20px 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
