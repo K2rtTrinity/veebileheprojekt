@@ -5,63 +5,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lihaga retseptid</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="lihaga.css">
     <link rel="stylesheet" type="text/css" href="ühine.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 </head>
 
 <body>
-    <h1>Tudengite lemmikud lihaga retseptid</h1>
-    <p>Siit lehelt leiad meie kõige lemmikumad lihtsad retseptid lihaga.</p>
-    <h2>India võikana</h2>
-    <p>ettevalmistusaeg: 15min _____ küpsetusaeg: 30min _____ kogus: 5 portsioni</p>
-    <p>India võikana on tuntud indiapärane roog, mis on ka Eestis populaarseks saanud. India võikana on sarnane teisele india köögi roale Tikka Masala, ning on üks populaarsematest India roogadest üle kogu maailma.
-        Nüüd on seda mõnusat võikana lihtne ka kodus valmistada, mis saab kindlasti teie lemmikuks ja konkureerib restoranides saadavaga. See aromaatne karrikaste soovib vaid mõnda indiapärast maitseainet, mida on ka tänapäeval poodidest väga lihtne leida.
-        Võikana pärineb 1940. aastate Põhja-Indiast ning originaalselt kannab nime murgh makhani. Tavapärane nimetus võikana tuleneb asjaolust, et see maitsev kaste, milles on marineeritud kanafilee tükid, on mõnusalt võine ja kreemine. 
-        Paljud restoranid lisavad kastmele juurde suurtes kogustes võid, kuid siin retseptis on eelistatud kastme alguses Ghee kasutamist, mis on oma olemuselt selitatud või. Seega ei tundu see kaste nii raske ja rasvane, kuid on sama maitsev.
-        Kanafileed võite julgelt marineerida ka aja olemasolu korral üleöö, mis kindlustab veelgi tugevama ja parema maitse. Samuti kohandage tšillipulbri lisamist oma soovi järgi, eriti kui sööjate hulgas on lapsi, kes vürtsikat toitu ei eelista.</p>
-    <p></p>
-    <h3>vaja läheb:</h3>
-    <h4>kanamarinaad</h4>
-    <p>800g kanafille kuubikuid</p>
-    <p>120ml maitsestamata jogurtit</p>
-    <p>1,5 spl hakitud küüslauku</p>
-    <p>1 spl riivitud ingverit</p>
-    <p>2 tl garam masalat</p>
-    <p>1 tl kurkumit</p>
-    <p>1 tl jahvatatud köömneid</p>
-    <p>1 tl punast tšillipulbrit</p>
-    <p>1 tl soola</p>
-    <h4>võikaste</h4>
-    <p>2 spl oliiviõli</p>
-    <p>2 spl gheed (või 1 spl võid ja 1 spl õli)</p>
-    <p>1 suur sibul (hakitud)</p>
-    <p>1,5 spl küüslauku (tükeldatud)</p>
-    <p>1 tl ingverit (riivitud)</p>
-    <p>1,5 tl jahvatatud köömneid</p>
-    <p>1,5 tl garam masalat</p>
-    <p>1 tl jahvatatud koriandrit</p>
-    <p>400g purustatud tomateid</p>
-    <p>1 tl punast tšillipulbrit</p>
-    <p>1,25 tl soola</p>
-    <p>240ml vahukoort</p>
-    <p>1 spl suhkurt</p>
-    <p>0,5 tl lambaläätse lehti</p>
-    <h3>valmistamine</h3>
-    <p>1. Segage kokku kanafileetükid marinaadi koostisosadega. Jätke 30 minutiks kuni üleöö marineerima.</p>
-    <p>2. Kuumutage õli pannil ning praadige marineeritud kanafileed 3 minutit mõlemalt poolt. Asetage kõrvale.</p>
-    <p>3. Kuumutage samal pannil ghee või õli ja või segu. Praadige sibulat umbes 6 minutit ning seejärel lisage juurde küüslauk ja ingver ning praadige veel 1 minut.    </p>
-    <p>4. Lisage juurde koriander, köömned ning garam masala. Kuumutage 20 sekundit pidevalt segades.</p>
-    <p>5. Lisage juurde purustatud tomatid, tšillipulber ja sool. Keetke 10-15 minutit, pidevalt segades, kuni kaste pakseneb.</p>
-    <p>6. Eemaldage pann tulelt, valage segu blendrisse ning blenderdage, kuni segu on ühtlane.</p>
-    <p>7. Valage püreestatud kaste tagasi pannile. Segage sisse vahukoor, suhkur ja lambaläätse lehed. Lisage juurde praetud kanafilee tükid ning kuumutage veel 8-10 minutit, kuni kana on küpsenud.</p>
-    <p>8. Serveerige koos sooja riisi või Naani leivaga.</p>
+    <header>
+        <h1>Tudengite lemmikud lihaga retseptid</h1>
+        <p>Siit lehelt leiad meie lemmikud lihtsad retseptid lihaga.</p>
+    </header>
+
+    <section class="recipe" id="recipe1">
+        <h2 class="recipe-title">Kana Tikka Masala ja juustunaan</h2>
+        <div class="recipe-content">
+            
+            <picture>
+                <img id="näitaPilti1" src="https://massystorestt.com/wp-content/uploads/2016/09/chicken-tikka-masala.jpg" alt="kana Tikka Masala" style="display: none">
+            </picture>
+            <button type="button" onclick="pildiga(1)" id="nupp1">Kana Tikka Masala pilt</button>
+
+            <p>Ettevalmistusaeg: 2min <br>Küpsetusaeg: 20min<br> Kogus: 2-3 inimest</p>
+            <p>Kana Tikka Masala on tuntud indiapärane roog, mis on ka Eestis populaarseks saanud. 
+                Seda rooga on kodus lihtne valmistada tänu Santa Maria Tikka Masala kastmele ning kuna roal on lihtne ülesehitus. 
+                See retsept on niivõrd hea, et enam ei pea suurepärase kana Tikka Masala saamiseks välja sööma minema. 
+                Kuna Tikka Masala kaste on üsna vürtsikas, siis on hea teda serveerida juustuse naaniga, mis aitab kuumust levendada. 
+                Siin on kana Tikka Masala retsept neile, kes tahavad suurepärast rooga, kuid seda võimalikult kergelt ja kiiresti valmistades!</p>
+            
+            <h3>Vaja läheb</h3>
+            <h4>Kana Tikka Masala:</h4>
+            <ul>
+                <li>250g riis</li>
+                <li>350g Tikka Masala kaste, Santa Maria</li>
+                <li>400g broileri rinnafilee</li>
+                <li>sool</li>
+                <li>broilerimaitseaine (või soovipärased maitseained kana maitsestamiseks)</li>
+            </ul>
+            <h4>Naan:</h4>
+            <ul>
+                <li>160g isekerkiv jahu</li>
+                <li>180g maitsestamata kohupiim või jogurt</li>
+                <li>100g mozzarella riivjuust (võib asendada mõne muu riivjuustuga)</li>
+                <li>2 küüslaugu küünt</li>
+                <li>sool</li>
+                <li>küüslaugupulber</li>
+                <li>natuke võid praadimiseks</li>
+            </ul>
+
+            <h3>Valmistamine</h3>
+            <h4>Kana ja riis:</h4>
+            <ol>
+                <li>Keeda/auruta riis soolvees.</li>
+                <li>Tükelda kana ja prae maitseainetega soovipäraselt.</li>
+                <li>Kui kana on valmis vala kanale juurde Tikka Masala kaste ja kuumuta läbi.</li>
+                <li>Serveeri kana Tikka Masala kaste koos riisiga.</li>
+            </ol>
+            <h4>Naan:</h4>
+            <ol>
+                <li>Sega kausis jahu ja maitseained.</li>
+                <li>Lisa kohupiim/jogurt ja töötle pestud kätega kuniks tekib taignamass.</li>
+                <li>Vooli 4 palli ja rulli nad lapikuks.</li>
+                <li>Pane taigna keskele juust ja voldi tainas nii kokku, et juust välja ei pääseks.</li>
+                <li>Keera kettad ümber ja rulli nad õhemaks.</li>
+                <li>Pane pannile natukene võid ja küüslauku ja prae naanid mõlemalt poolt umbes 2 minutit.</li>
+                <li>Serveeri kuumalt.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="recipe" id="recipe2">
+        <h2 class="recipe-title">Peekoni-sibulapasta</h2>
+        <div class="recipe-content">
+            <picture>
+                <img id="näitaPilti2" src="https://media-cdn.tripadvisor.com/media/photo-s/15/8c/f6/41/pasta-carbonara-peekon.jpg" alt="pasta" style="display: none">
+            </picture>
+            <button type="button" onclick="pildiga(2)" id="nupp2">Pasta pilt</button>
+
+            <p>Ettevalmistusaeg: 4min <br> Küpsetusaeg: 15min <br>Kogus: 2 inimest</p>
+            <p>Peekoni ja sibula pasta on üks tudengi rahakotile mõtlev pasta. Seda pastat on väga lihtne ja kiire teha ning roog ise on väga maitsev. 
+                Peekon annab pastale mõnusa krõmpsuva lisandi ja sibul magusust.</p>
+            <h3>Vaja läheb</h3>
+            <ul>
+                <li>140g peekon</li>
+                <li>400ml toidukoor</li>
+                <li>300g pasta</li>
+                <li>90g juust</li>
+                <li>sool, pipar</li>
+            </ul>
+
+            <h3>Valmistamine</h3>
+            <ol>
+                <li>Keeda pasta soolvees vastavalt pakendil olevale juhisele (tavaliselt 7-12min).</li>
+                <li>Tükelda peekon ja sibul ning prae pannil kuniks sibul on kuldpruun ja peekon küpsenud.</li>
+                <li>Lisa peekonile ja sibulale koor ning maitseained. Lase madalal kuumusel podiseda kuniks kaste on kreemjas.</li>
+                <li>Lisa kastmele natukene juustu ja sega (jäta juustu ka serveerimiseks).</li>
+                <li>Serveeri pasta koos kastme ja juustuga.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="recipe" id="recipe3">
+        <h2 class="recipe-title">Kartulisalat</h2>
+        <div class="recipe-content">
+            <picture>
+                <img id="näitaPilti3" src="https://parimadretseptid.ee/wp-content/uploads/2023/01/kartulisalat-hernestega-retsept.jpeg" alt="kartulisalat" style="display: none">
+            </picture>
+            <button type="button" onclick="pildiga(3)" id="nupp3">Kartulisalat pilt</button>
 
 
+            <p>Valmistusaeg: 10min <br>Kogus: 8 inimest</p>
+            <p>Kartulisalat on maitsev roog, mille valmistamine on ülimalt lihtne. 
+                Tuleb vaid koostisosad tükeldada ja kokku segada. 
+                Kartulisalat sobib suurepäraselt sünnipäeva lauale ning ka suureks koguseks ettevalmistamiseks, et kiirelt külmkapist toitu haarata.
+                Kartulisalatisse võib meelepäraseid koostisosi panna, kuid siin on klassikaline retsept. </p>
+            <h3>Vaja läheb</h3>
+            <ul>
+                <li>5-8 kartul</li>
+                <li>3 muna</li>
+                <li>5 marineeritud kurk</li>
+                <li>150g keeduvorst</li>
+                <li>100g konserveeritud hernes</li>
+                <li>100g konserveeritud porgand</li>
+                <li>250g hapukoor</li>
+                <li>250g majonees</li>
+                <li>sool, pipar</li>
+            </ul>
+            <h3>Valmistamine</h3>
+            <ol>
+                <li>Keeda kartulid ja munad.</li>
+                <li>Haki kurk, vorst, kartulid ja munad.</li>
+                <li>Sega kausis hakitud asjad, porgandikuubikud ja herned.</li>
+                <li>Lisa hapukoor, majonees ja maitseained ning sega kõik läbi.</li>
+                <li>Serveeri!</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="recipe" id="recipe4">
+        <h2 class="recipe-title">Kotletid kartulipudruga</h2>
+        <div class="recipe-content">
+
+            <picture>
+                <img id="näitaPilti4" src="https://aitah.eu/application/files/5915/7572/2630/Kodune_kotlet_kartulipudruga.jpg" alt="kotletid kartulipudruga" style="display: none">
+            </picture>
+            <button type="button" onclick="pildiga(4)" id="nupp4">Kotletid kartulipudruga pilt</button>
 
 
+            <p>Ettevalmistusaeg: 15min <br> Küpsetusaeg: 60min <br>Kogus: 2 inimest</p>
+            <p>Kellele ei maitseks vanaema tehtud kartulipuder ja kotletid? 
+                See retsept on just neile, kellele meeldivad vanaema road ning kiire ja lihtne toiduvalmistamine.</p>
+            <h3>Vaja läheb</h3>
+            <ul>
+                <li>200g hakkliha</li>
+                <li>1 muna</li>
+                <li>120g porgand</li>
+                <li>24g või</li>
+                <li>300g kartul</li>
+                <li>160g piim</li>
+                <li>maitseroheline, sool, pipar</li>
+            </ul>
+            <h3>Valmistamine</h3>
+            <ol>
+                <li>Keeda/auruta kartulid.</li>
+                <li>Maitsesta kartulid ja tambi pudruks.</li>
+                <li>Lisa pool kogust võid ja piim ning sega läbi.</li>
+                <li>Riivi porgand ning sega kokku hakkliha, muna ja soovipäraste maitseainetega.</li>
+                <li>Vormi massist pallid ja prae pannil ülejäänud võiga.</li>
+                <li>Serveeri kartulipuder ja kotletid maitserohelisega.</li>
+            </ol>
+        </div>
+    </section>
 
+    <section class="recipe" id="recipe5">
+        <h2 class="recipe-title">Hakklihapitsa</h2>
+        <div class="recipe-content">
 
+            <picture>
+                <img id="näitaPilti5" src="https://i0.wp.com/recept4you.ru/wp-content/uploads/2017/9/recept-picca-s-mjasnym-farshem_52_1.jpg" alt="hakklihapitsa" style="display: none">
+            </picture>
+            <button type="button" onclick="pildiga(5)" id="nupp5">Hakklihapitsa pilt</button>
 
+            <p>Ettevalmistusaeg: 10min <br>Küpsetusaeg: 20min <br>Kogus: 1 keskmine pitsa</p>
+            <p>Kes ütles, et pitsa ei saa olla tervislik? 
+                Vot siin on retsept hakklihapitsale, mis on üheltpoolt maitsev ja lihtne valmistada ning teisalt ka tervislik.</p>
+            <h3>Vaja läheb</h3>
+            <ul>
+                <li>55g isekerkiv jahu</li>
+                <li>55g kohupiim</li>
+                <li>30g tomatipasta</li>
+                <li>30g riivjuust</li>
+                <li>50g hakkliha</li>
+                <li>80g seened/sibul/paprika/marineeritud kurk</li>
+                <li>sool, oregano, küüslaugupulber, sibulapulber, broilerimaitseaine</li>
+            </ul>
+            <h3>Valmistamine</h3>
+            <ol>
+                <li>Sega jahu, maitseained ja kohupiim ühtlaseks taignaks. Kui tainas tundub liiga kuiv, lisa supilusikatäis vett. Võid kasutada puhtaid käsi taigna töötlemisel.</li>
+                <li>Veereta tainas palliks ja lase mõned minutd seista.</li>
+                <li>Raputa lauale natukene jahu ja rulli tainas soovitud kujuks ja paksuseks.</li>
+                <li>Prae hakkliha koos meelepäraste maitseainetega ja soovikorral sibulaga.</li>
+                <li>Kata tainas tomatipasta, hakkliha, juurviljade ja juustuga.</li>
+                <li>Küpseta ahjus 180kraadi juures umbes 18minutit.</li>
+                <li>Serveeri!</li>
+            </ol>
+        </div>
+    </section>
+    <script src="lihaga.js"></script>
 </body>
 
 </html>
