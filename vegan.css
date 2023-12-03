@@ -6,7 +6,7 @@ h2{
     color:rgba(32, 68, 3, 0.699);
 }
 body {
-    background-color:rgb(99, 164, 94);
+    background-color:rgb(100, 152, 96);
 }
 
 button {
@@ -22,7 +22,7 @@ img {
 }
 
 header {
-    background-color: #80cd8e;
+    background-color:  #92c09b;
     color: #170303;
     text-align: center;
     padding: 20px 0;
@@ -36,7 +36,7 @@ section{
     box-shadow:0 0 10px rgba(32, 68, 3, 0.699);
     border-radius:15px;
     overflow:hidden;
-    background-color: #80cd8e;
+    background-color: #92c09b;
 }
 
 
