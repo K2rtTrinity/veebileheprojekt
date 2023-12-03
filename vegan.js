@@ -1,3 +1,5 @@
+// Tegin ise
+
 function pildiga(pildinumber) {
     // Igal pildil on oma ID, et ma saaks nendele viidata ilma, et need ei hakkaks üksteist segama
     var pilt = document.getElementById("näitaPilti" + pildinumber); 
