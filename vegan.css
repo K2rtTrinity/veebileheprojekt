@@ -1,12 +1,9 @@
-title {
-    font-family: 'Times New Roman', Times, serif;
-}
 
 h2{
     color:rgba(32, 68, 3, 0.699);
 }
 body {
-    background-color:rgb(100, 152, 96);
+    background-color:rgb(122, 163, 119);
 }
 
 button {
@@ -22,10 +19,14 @@ img {
 }
 
 header {
-    background-color:  #92c09b;
-    color: #170303;
+    background-color:  #56845f;
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
+    
+}
+h1,h2{
+    font-size:45px;
 }
 
 /*Tiimiliikme Kärt Tirinity järgi tehtud*/
