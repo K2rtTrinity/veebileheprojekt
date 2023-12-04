@@ -1,3 +1,12 @@
 body, title {
     font-family: 'Montserrat',sans-serif;
 }
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
