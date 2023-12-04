@@ -3,19 +3,19 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #555;
+    background-color: #FFFFCC;
+    color: #000;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FFFFB5;
+    color: #555;
     padding: 1em;
 }
 
 header p {
     font-style: italic;
-    color: #eee;
+    color: #555;
 }
 
 nav {
@@ -26,8 +26,8 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #333;
-    background-color: #ddd;
+    color: #FFF;
+    background-color: #4CAF50;
     padding: 0.8em 1em;
     margin: 0 0.5em;
     border-radius: 5px;
@@ -40,14 +40,30 @@ nav a:hover {
 }
 
 section {
+    position: relative;
     max-width: 800px;
     margin: 2em auto;
     padding: 1em;
-    background-color: #fff;
+    background-color: #fefefe;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section p {
     margin-bottom: 1em;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /*crop*/
+    border-radius: 8px;
+    margin-bottom: 1em;
+    transition: transform 0.3s ease-in-out; /* js jaoks, sujuvam */
 }
