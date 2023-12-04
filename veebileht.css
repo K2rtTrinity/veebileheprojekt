@@ -3,19 +3,21 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #555;
+    background-image: url('https://images.pexels.com/photos/1813505/pexels-photo-1813505.jpeg?cs=srgb&dl=variety-of-food-on-the-table-1813505.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #52362A;
+    color: #fff;
     padding: 1em;
 }
 
 header p {
     font-style: italic;
-    color: #eee;
+    color: #fff;
 }
 
 nav {
@@ -26,8 +28,8 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #333;
-    background-color: #ddd;
+    color: #FFF;
+    background-color: #4CAF50;
     padding: 0.8em 1em;
     margin: 0 0.5em;
     border-radius: 5px;
@@ -40,14 +42,42 @@ nav a:hover {
 }
 
 section {
+    position: relative;
     max-width: 800px;
     margin: 2em auto;
     padding: 1em;
-    background-color: #fff;
+    background-color: #fefefe;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section p {
     margin-bottom: 1em;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images-container figure {
+    transition: transform 0.3s ease-in-out;
+}
+
+.images-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.images-container figure:hover {
+    transform: scale(1.1);
+}
+
+.images-container figure a {
+    color: black;
+    text-decoration: none;
 }
