@@ -3,19 +3,21 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #FFFFCC;
+    background-image: url('https://images.pexels.com/photos/1813505/pexels-photo-1813505.jpeg?cs=srgb&dl=variety-of-food-on-the-table-1813505.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
     color: #000;
 }
 
 header {
-    background-color: #FFFFB5;
-    color: #555;
+    background-color: #52362A;
+    color: #fff;
     padding: 1em;
 }
 
 header p {
     font-style: italic;
-    color: #555;
+    color: #fff;
 }
 
 nav {
@@ -59,11 +61,23 @@ section p {
     align-items: center;
 }
 
+.images-container figure {
+    transition: transform 0.3s ease-in-out;
+}
+
 .images-container img {
     width: 300px;
     height: 200px;
-    object-fit: cover; /*crop*/
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 1em;
-    transition: transform 0.3s ease-in-out; /* js jaoks, sujuvam */
+}
+
+.images-container figure:hover {
+    transform: scale(1.1);
+}
+
+.images-container figure a {
+    color: black;
+    text-decoration: none;
 }
